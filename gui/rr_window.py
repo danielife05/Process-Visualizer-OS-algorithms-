@@ -6,9 +6,9 @@ from gui.result_window import show_result_window
 
 def get_sample_processes():
     return [
-        Process(1, 0, 5),
-        Process(2, 2, 3),
-        Process(3, 4, 1),
+        Process(1, 0, 5, priority=2),
+        Process(2, 2, 3, priority=1),
+        Process(3, 4, 1, priority=3),
     ]
 
 def open_rr_input_window():
