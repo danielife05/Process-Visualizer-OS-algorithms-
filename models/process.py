@@ -6,7 +6,7 @@ class Process:
         self.priority = priority
         self.remaining_time = burst_time
 
-        # Campos de resultado
+        # Results
         self.start_time = None
         self.completion_time = None
         self.turnaround_time = None
