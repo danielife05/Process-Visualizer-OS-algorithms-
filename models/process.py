@@ -11,3 +11,6 @@ class Process:
         self.completion_time = None
         self.turnaround_time = None
         self.waiting_time = None
+
+    def copy(self):
+        return Process(self.pid, self.arrival_time, self.burst_time, self.priority)
